@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>IBM Job Application</legend>
+            <label for="">FirstName: </label>
+            <input type="text" placeholder="Enter FirstName">
+            <br><br>
+
+            <label for="">LastName: </label>
+            <input type="text" placeholder="Enter LastName">
+            <br><br>
+            
+            <label for="">Email: </label>
+            <input type="email" placeholder="Enter Email">
+            <br><br>
+            
+            <label for="">Phone: </label>
+            <input type="tel" pattern="[6-9]{1}[0-9]{9}" placeholder="+91">
+            <br><br>
+
+            <label for="">Gender: </label>
+            <input type="radio" value="Male" name="gender">Male 
+            <input type="radio" value="Female" name="gender">female
+            <input type="radio" value="Others" name="gender">Others
+            <br><br>
+
+            <label for="state">State: </label>
+            <select name="" id="state">
+                <option value="">Choose State</option>
+                <option value="Karnataka">KA</option>
+                <option value="Andra Pradesh">AP</option>
+                <option value="Telangana">TL</option>
+                <option value="Tamil nadu">TN</option>
+                <option value="Kerala">KL</option>
+            </select>
+            <br><br>
+            <label for="">Address: </label>
+            <textarea rows="4" cols="30" placeholder="Enter Full Address as per Aadher" name="" id=""></textarea>
+            <br><br>
+
+            <label for="">Skills : </label>
+            <input type="checkbox"> Java
+            <input type="checkbox"> Spring Boot
+            <input type="checkbox"> Spring MVC
+            <input type="checkbox"> Spring IOC
+            <input type="checkbox"> Dependency Injection
+            <input type="checkbox"> SQL 
+            <br><br>
+
+            <label for="">Languages: </label>
+            <input type="range" value="80"> English
+            <input type="range" value="80"> Hindi 
+            <br><br>
+            <label for="">Resume : </label>
+            <input type="file" accept=".pdf">
+            <br><br>
+
+
+            <button type="submit">Apply</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
