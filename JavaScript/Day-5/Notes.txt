@@ -1,0 +1,59 @@
+Where we use JS : 
+------------------
+    ->We can build dynamic web applications 
+    ->using JS we can Add functionalities to Web Pages 
+    ->here Can achieve DOM(document object model) functionalities using that we can manipulate HTML and CSS 
+    ->to Fetch data from server (API's) and send data to server(API's)
+    ->We can build Server (using node )
+
+
+Tokens : 
+-------
+    ->Tokens are the smallest units js code 
+        types: 
+            1. identifiers 
+                ->
+            2. keywords 
+                ->
+            3. literals 
+                ->
+            4. operators 
+            5. separators 
+            6. comments 
+
+
+
+    
+DataTypes: 
+-----------
+    ->DataTypes represent the What type of Data we are storing on that variables 
+
+    Types: 
+        1. Primitive DataTypes 
+            i. number 
+            ii. string 
+            iii .boolean
+            iv . null 
+            v.  undefine 
+            vi.  bigint 
+            vii. symbol
+
+
+        2. Non Primitive DataTypes
+            i. Arrays
+                ->Arrays are the linear data structures used to store collection of homogenous or heterogenous data 
+
+                ->In JS we can declear arrays in Two Ways 
+                    1. Literal way 
+                    2. using new keyword(constructor)
+
+
+
+            ii. Objects 
+                ->Object the real time entities used to store data in form of key and value pair
+                ->In JS we can declear Object in Two Ways 
+                    1. Literal way 
+                    2. using new keyword(constructor)
+
+            iii .Functions 
+            v. Class types 
