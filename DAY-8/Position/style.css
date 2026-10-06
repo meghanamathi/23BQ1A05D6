@@ -1,0 +1,29 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    border:2px solid black;
+    display:inline-block;
+}
+#box1{
+    position:static;
+    top:10px;
+    right:20px;
+}
+#box2{
+    position:relative;
+    top:10px;
+    left:20px;
+}
+#box3{
+    position:absolute;
+    top:200px;
+}
+#box4{
+    position: sticky;
+    top:50px;
+}
+#box5{
+    position:fixed;
+    top:20px;
+}

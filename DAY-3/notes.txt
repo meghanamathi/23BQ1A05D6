@@ -132,8 +132,3 @@ JOB APPLICATION FORM :
     9. Skills  ->java spring boot , API Integration , Postmen , SQL , MYSQL , React 
     10. Language -> English , Telugu , Kannada , Hindi 
     11. Resume  
-
-
-       
-
-https://github.com/ashokm0603/VVIT-Java-Full-Stack-CSE-C.git
